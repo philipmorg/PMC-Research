@@ -22,9 +22,9 @@ output:
 
 # Key Findings
 
-1. My study participants — self-employed software developers — strongly prefer individual, asynchronous learning styles (books and courses, primarily) over group, synchronous styles (realtime courses or mentoring). IRL conferences are the primary exception to this pattern.
+1. My study participants -- self-employed software developers -- strongly prefer individual, asynchronous learning styles (books and courses, primarily) over group, synchronous styles (realtime courses or mentoring). IRL conferences are the primary exception to this pattern.
 2. New business opportunity for this group comes from relationships (networking and past clients), paying attention to changes in the market, and persistence in pursuing opportunity.
-3. Two currently “hot” career investment tools (listening to podcasts and mentorship) are used at surprisingly low levels within my sample group.
+3. Two currently "hot" career investment tools (listening to podcasts and mentorship) are used at surprisingly low levels within my sample group.
 4. While speaking and publishing are reliable opportunity-generators, they are used at relatively low levels by my sample group.
 
 # Three questions
@@ -71,9 +71,9 @@ What you'll see below are the top 3 responses from each of my sample groups (one
 > 
 > A: I buy books, courses, attend events, practice what I learn from those sources, and invest in my network to make sure I have future opportunity.
 
-That's about the least surprising possible answer to the "how do you invest" question. And that answer is a good summary of what my survey responses indicate.
+That answer is about the least surprising possible answer to the "how do you invest" question. And it is a good summary of what my survey responses indicate.
 
-As I said at the top of this report, "it's pretty much what you'd think". There are few surprises in the top 3 responses to each question. 
+As I said at the top of this report, "it's pretty much what you'd think". There are indeed few surprises in the top 3 responses to each question. 
 
 I'm also not surprised at the methods of career investment that were on the list but were relatively unpopular, specifically:
 
@@ -84,15 +84,15 @@ These are well-established -- we might use the over-used word *proven* -- method
 
 Despite the effectiveness of these career investment tools, it's no surprise that they're close to the bottom of the pile in terms of popularity. They're a ton of work. In fact, their relative unpopularity might explain their continued effectiveness: in a world where nearly everybody can give a killer talk, killer talks are not going to help you stand out. But in the actual world we live in, killer talks are rare, and lead to visibility and authority.
 
-Here's another interesting perspective on my data: _what's not on the list of responses at all, or what's much further towards the bottom than we'd expect?_
+Here's another interesting way to interrogate this data: _what's not on the list of responses at all, or what's much further towards the bottom than we'd expect?_
 
 Twitter gives us a certain filtered picture of the world of software development, and my Twitter feed currently has a lot of content about the value of mentorship, along with heated blowback against companies that place low value on mentorship. Yet, in my research, mentorship is represented either very minimally (1 of 33 list respondents) or not at all (my LinkedIn sample) as a career investment method. 
 
 This is a surprising disconnect between the picture of the world Twitter offers, and the picture my research offers, which portrays software developers as very motivated to use individual learning methods (books, courses) and not very motivated at all to use more collaborative learning methods (mentorship, pair programming, online groups). 
 
-To be fair, the Twitter hype train around mentorship is clearly in the context of regular employment, not self-employment. Yet if mentorship was broadly valuable, wouldn't self-employed folks -- who enjoy relatively more of freedom in the design of their work and career and therefore might have more ability to forge mentorship relationships -- seek it out more than is represented in my data? Is mentorship's value highest in the world of regular employment and relatively lower in self-employment?
+To be fair, the Twitter hype train around mentorship is clearly in the context of regular employment, not self-employment. Yet if mentorship was broadly valuable, wouldn't self-employed people -- who enjoy relatively more freedom in the design of their work and career and therefore might have more ability to forge mentorship relationships -- seek it out more than is represented in my data? Is mentorship's value highest in the world of regular employment and relatively lower in self-employment?
 
-Listening to podcasts as a career investment tool feels underrepresented in my data. I say "feels" because I haven't measured how often my friends, colleagues, clients, and the press mention listening to podcasts, but going on my subjective experience alone, I'd give it a top-3 ranking among possible methods of career investment. Yet my data ranks it lower. Not dramatically lower, mind you. In my list sample, it ranked 8 and 4 respectively among methods for investing in technical and career skills, and did not appear at all in my LinkedIn sample. Even so, the disparity between my subjective experience of hearing "podcasting, podcasting, podcasting" and my somewhat more objective experience of seeing it represented at a relatively low level in my data is jarring, and leads to further questions. ^[Chief among these questions would be whether there's a correlation between the activity of podcast listening and some measurable career outcome or achievement. Another question would be whether books and courses are viewed as "pure" learning tools while podcasts might be seen more as "info-tainment" tools.]
+Listening to podcasts -- as a career investment tool -- feels underrepresented in my data. I say "feels" because I haven't measured how often my friends, colleagues, clients, and the press mention listening to podcasts, but going on my subjective experience alone, I'd give it a top-3 ranking among possible methods of career investment. Yet my data ranks it lower. Not dramatically lower, mind you. In my list sample, it ranked 8 and 4 respectively among methods for investing in technical and career skills, and did not appear at all in my LinkedIn sample. Even so, the disparity between my subjective experience of hearing "podcasting, podcasting, podcasting" and my somewhat more objective experience of seeing it represented at a relatively low level in my data is jarring, and leads to further questions. ^[Chief among these questions would be whether there's a correlation between the activity of podcast listening and some measurable career outcome or achievement. Another question would be whether books and courses are viewed as "pure" learning tools while podcasts might be seen more as "info-tainment" tools.]
 
 # Insights
 
@@ -107,32 +107,32 @@ In fact, when I dig into the full-resolution picture of where my respondents bel
 
 **Relationship assets outperform technical skill assets.**
 
-Below are the full ranked list of coded responses to the question: "Consider your entire career as a self-employed software developer and times you have gotten new opportunities, better projects, or other forms of career improvement. What do you think led to these improvements in your career?"
+Below is the full ranked list of coded responses to the question: "Consider your entire career as a self-employed software developer and times you have gotten new opportunities, better projects, or other forms of career improvement. What do you think led to these improvements in your career?"
 
 I've bolded the responses that indicate relationship assets, and italicized those that indicate technical skill assets. The number to the right of each line is the number of respondents who indicated that action or sentiment:
 
 | LinkedIn Sample | List Sample |
 |:--------------|:-----------|
-| 	a-networking - 7	 | 	a-networking - 8	 |
-| 	s-perceptiveness - 3	 | 	a-relationships - 5	 |
-| 	s-persistence - 2	 | 	a-relationship-with-existing-clients - 4	 |
-| 	s-focus-on-quality - 2	 | 	s-luck - 4	 |
-| 	s-connections - 2	 | 	a-focus-on-expensive-problems - 3	 |
-| 	s-skill - 1	 | 	s-confidence - 3	 |
-| 	s-problemsolving-ability - 1	 | 	a-certification - 2	 |
+| 	**a-networking - 7**	 | 	**a-networking - 8**	 |
+| 	**s-perceptiveness - 3**	 | 	**a-relationships - 5**	 |
+| 	s-persistence - 2	 | 	**a-relationship-with-existing-clients - 4**	 |
+| 	*s-focus-on-quality - 2*	 | 	s-luck - 4	 |
+| 	**s-connections - 2**	 | 	a-focus-on-expensive-problems - 3	 |
+| 	*s-skill - 1*	 | 	s-confidence - 3	 |
+| 	*s-problemsolving-ability - 1*	 | 	*a-certification - 2*	 |
 | 	s-positive-attitude - 1	 | 	a-building-confidence - 2	 |
 | 	s-openness - 1	 | 	a-intentional-client-work - 2	 |
-| 	s-networking - 1	 | 	a-marketing - 2	 |
+| 	**s-networking - 1**	 | 	a-marketing - 2	 |
 | 	s-longevity - 1	 | 	a-mentoring - 2	 |
-| 	s-legacy-orientation - 1	 | 	a-sales - 2	 |
-| 	s-focus - 1	 | 	a-skill-growth - 2	 |
+| 	*s-legacy-orientation - 1*	 | 	a-sales - 2	 |
+| 	s-focus - 1	 | 	*a-skill-growth - 2*	 |
 | 	s-curiosity - 1	 | 	a-being-where-opportunities-are - 1	 |
-| 	s-continuous-improvement - 1	 | 	a-continuous-improvement - 1	 |
+| 	*s-continuous-improvement - 1*	 | 	*a-continuous-improvement - 1*	 |
 | 	s-coincidence - 2	 | 	a-discipline - 1	 |
-| 	s-challenging-competetive-environment - 1	 | 	a-doing-good-work - 1	 |
+| 	s-challenging-competetive-environment - 1	 | 	*a-doing-good-work - 1*	 |
 | 	a-speaking - 1	 | 	a-exceeding-comfort-zone - 1	 |
 | 	a-recruiters - 1	 | 	a-experiential-learning - 1	 |
-| 	a-publishing - 1	 | 	a-focus-on-hot-technologies - 1	 |
+| 	a-publishing - 1	 | 	*a-focus-on-hot-technologies - 1*	 |
 | 		 | 	a-niche-visibility - 1	 |
 | 		 | 	a-podcasts - 1	 |
 | 		 | 	a-portfolio-or-case-studies - 1	 |
@@ -141,7 +141,7 @@ I've bolded the responses that indicate relationship assets, and italicized thos
 | 		 | 	a-risk-taking - 1	 |
 | 		 | 	a-service - 1	 |
 | 		 | 	a-specializing - 1	 |
-| 		 | 	a-tech-skill - 1	 |
+| 		 | 	*a-tech-skill - 1*	 |
 | 		 | 	a-visibility - 1	 |
 | 		 | 	s-divine-intervention - 1	 |
 | 		 | 	s-mindset - 1	 |
