@@ -30,7 +30,7 @@ output:
 
 # Three questions
 
-There are three specific questions from the survey that I'll focus on in this report
+There are three specific questions from the survey that I'll focus on in this report.
 
 ## 1) How do you invest in technical skills? 
 
