@@ -12,10 +12,10 @@ abstract: |
 fontsize: 13pt
 urlcolor: blue
 output:
-  tufte::tufte_handout:
+  tufte::tufte_html:
     toc: true
     toc_depth: 2
-  tufte::tufte_html:
+  tufte::tufte_handout:
     toc: true
     toc_depth: 2
 ---
@@ -46,6 +46,7 @@ What you'll see below are the top 3 responses from each of my sample groups (one
 | a-reading-books - 4 - 18%  | a-reading-books - 16 - 48% |
 | a-irl-conferences - 4 - 18%" | a-coding-practice - 9 - 27% |
 
+\newpage
 ## 2) How do you invest in business skills?
 
 `r tufte::margin_note('The full question was: Please list ways you have you spent time and money for business or self-employment skills.')`
