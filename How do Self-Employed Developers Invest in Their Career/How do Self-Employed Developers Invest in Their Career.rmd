@@ -20,6 +20,7 @@ output:
     toc_depth: 2
 ---
 
+\newpage
 # Key Findings
 
 1. My study participants -- self-employed software developers -- strongly prefer individual, asynchronous learning styles (books and courses, primarily) over group, synchronous styles (realtime courses or mentoring). IRL conferences are the primary exception to this pattern.
