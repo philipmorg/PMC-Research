@@ -181,6 +181,7 @@ I welcome discussion with you about the conclusions you might draw from this dat
 # Brought To You By Philip Morgan Consulting
 
 I'm Philip Morgan Consulting, and I'm focused on helping dev shops cultivate, commercialize, and monetize expertise. 
+
 There's an underlying tension inherent in this expertise project: what dev shops need to do to cultivate exceptionally valuable expertise is often in direct conflict with what they need to do to serve clients -- and generate revenue -- today. My work helps resolve this tension. 
 
 Learn more: 
