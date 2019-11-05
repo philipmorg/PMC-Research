@@ -6,16 +6,16 @@ date: November 5, 2019 - v1.0
 abstract: |
   A study of how self-employed software developers invest in their careers, and where they believe career opportunity comes from, by Philip Morgan Consulting.
   
-  The question that motivated this study: How do self-employed software developers invest in their career?
   
+  The question that motivated this study: How do self-employed software developers invest in their career?
   The answer: It's pretty much what you might think, but there are some surprises.
 fontsize: 13pt
 urlcolor: blue
 output:
-  tufte::tufte_html:
+  tufte::tufte_handout:
     toc: true
     toc_depth: 2
-  tufte::tufte_handout:
+  tufte::tufte_html:
     toc: true
     toc_depth: 2
 ---
