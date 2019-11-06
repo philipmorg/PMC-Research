@@ -58,7 +58,7 @@ Of the 45 respondents who had managed dev team that is overseas OR a remote/dist
 
 ## Q: What is the #1 reason your company chose to hire remote developers?
 
-I standardized the free-form answers to this question using a simple coding system. The tabulated coded responses are below.
+I standardized the free-form answers to this question using a simple coding system. The tabulated coded responses are below. Note that some respondents provided more than one reason for choosing to hire remote developers.
 
 | Reason | Count of respondents who indicated this reason - % of respondents |
 |:--------------|:-----------|
@@ -76,7 +76,7 @@ I standardized the free-form answers to this question using a simple coding syst
 
 ## Q: What seems to be more difficult when managing remote developers?
 
-I standardized the free-form answers to this question using a simple coding system. The tabulated coded responses are below.
+I standardized the free-form answers to this question using a simple coding system. The tabulated coded responses are below. Note that some respondents provided more than difficulty in managing remote developers.
 
 | Reason | Count of respondents who indicated this difficulty - % of respondents |
 |:--------------|:-----------|
