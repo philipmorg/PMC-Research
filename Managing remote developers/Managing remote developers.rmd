@@ -37,8 +37,23 @@ Of the 45 respondents who had managed dev team that is overseas OR a remote/dist
 
 | Number of team members | Count of respondents who indicated this team size  - % of respondents |
 |:--------------|:-----------|
-| C1R1 | C2R1 |
-| C1R2  | C2R2 |
+| 	5	 | 	8	 - 	17.78%	 |
+| 	10	 | 	6	 - 	13.33%	 |
+| 	2	 | 	4	 - 	8.89%	 |
+| 	4	 | 	4	 - 	8.89%	 |
+| 	12	 | 	3	 - 	6.67%	 |
+| 	30	 | 	3	 - 	6.67%	 |
+| 	6	 | 	2	 - 	4.44%	 |
+| 	7	 | 	2	 - 	4.44%	 |
+| 	9	 | 	2	 - 	4.44%	 |
+| 	15	 | 	2	 - 	4.44%	 |
+| 	400	 | 	1	 - 	2.22%	 |
+| 	1	 | 	1	 - 	2.22%	 |
+| 	3	 | 	1	 - 	2.22%	 |
+| 	16	 | 	1	 - 	2.22%	 |
+| 	20	 | 	1	 - 	2.22%	 |
+| 	24	 | 	1	 - 	2.22%	 |
+| 	70	 | 	1	 - 	2.22%	 |
 
 
 ## Q: What is the #1 reason your company chose to hire remote developers?
@@ -47,8 +62,16 @@ I standardized the free-form answers to this question using a simple coding syst
 
 | Reason | Count of respondents who indicated this reason - % of respondents |
 |:--------------|:-----------|
-| C1R1 | C2R1 |
-| C1R2  | C2R2 |
+| 	Better talent	 | 	17	 - 	37.78%	 |
+| 	Cost	 | 	17	 - 	37.78%	 |
+| 	Scaling ease	 | 	4	 - 	8.89%	 |
+| 	More velocity	 | 	3	 - 	6.67%	 |
+| 	Preserve existing relationship through relocation	 | 	3	 - 	6.67%	 |
+| 	Lifestyle	 | 	1	 - 	2.22%	 |
+| 	more reliability	 | 	1	 - 	2.22%	 |
+| 	No physical location	 | 	1	 - 	2.22%	 |
+| 	Quality	 | 	1	 - 	2.22%	 |
+| 	Unique project requirement(s)	 | 	1	 - 	2.22%	 |
 
 
 ## Q: What seems to be more difficult when managing remote developers?
@@ -57,8 +80,15 @@ I standardized the free-form answers to this question using a simple coding syst
 
 | Reason | Count of respondents who indicated this difficulty - % of respondents |
 |:--------------|:-----------|
-| C1R1 | C2R1 |
-| C1R2  | C2R2 |
+| 	Communication	 | 	21	 - 	46.67%	 |
+| 	Time zone overlap	 | 	8	 - 	17.78%	 |
+| 	Management	 | 	7	 - 	15.56%	 |
+| 	Team building	 | 	6	 - 	13.33%	 |
+| 	Cultural differences	 | 	5	 - 	11.11%	 |
+| 	Managing underperformers	 | 	3	 - 	6.67%	 |
+| 	None	 | 	2	 - 	4.44%	 |
+| 	Onboarding	 | 	2	 - 	4.44%	 |
+
 
 # Insights
 
