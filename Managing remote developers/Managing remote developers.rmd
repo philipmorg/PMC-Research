@@ -35,10 +35,9 @@ output:
 
 # Method
 
-In May 2019, I surveyed a group of Tech Leads and VP's of Engineering from Computer Software, Internet, and Information Technology and Services companies. This group was a convenience opt-in sample from LinkedIn.
+In May 2019, I surveyed a group of Tech Leads and VP's of Engineering from Computer Software, Internet, and Information Technology and Services companies. This group was a convenience opt-in sample from LinkedIn. I screened respondents by asking "In the last year, have you managed a dev team that is overseas OR a remote/distributed team that has just 2 or 3 hours/day of time zone overlap with you?"
 
-- 56 people from LinkedIn completed the survey.
-- TODO
+- 56 people from LinkedIn completed the survey. 45 (80%) moved beyond the screener question.
 
 # Open data
 
