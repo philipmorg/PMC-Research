@@ -58,11 +58,20 @@ Of the 45 respondents who had managed dev team that is overseas OR a remote/dist
 | 	70	 | 	1	 - 	2.22%	 |
 
 
-```{r}
-sizetable<-fread("size.csv",sep=",")
-kable(sizetable, latex, digits = getOption("digits"), row.names = NA, col.names = NA, l, caption = NULL, label = NULL, format.args = list(), escape = TRUE)
-library(plotly)
-p <- plot_ly(sizetable, x = ~teamsize, y = ~respondents)
+```{r echo = FALSE}
+suppressMessages(library(data.table))
+suppressMessages(library(knitr))
+suppressMessages(library(kableExtra))
+suppressMessages(library(ggplot2))
+suppressMessages(library(plotly))
+
+sizetable<-fread("teamsize.csv",sep=",")
+
+kable(sizetable, "html", digits = getOption("digits"), row.names = NA, col.names = NA, "l", caption = "Team size distribution", label = NULL, format.args = list(), escape = TRUE)
+
+p <- plot_ly(sizetable, x = ~teamsize, y = ~respondents, type="bar")
+p <- layout(p, xaxis = list(type = "log"))
+p
 ```
 
 ## Q: What is the #1 reason your company chose to hire remote developers?
@@ -102,6 +111,10 @@ I standardized the free-form answers to this question using a simple coding syst
 # Insights
 
 TODO
+
+The media team size is 7. This gives the opportunity to see if there are "reasons why" and "main difficulty" differences between small and large teams.
+
+Another slice: look at reasons why and see if that has any relationship to team size or problems.
 
 # Method
 
