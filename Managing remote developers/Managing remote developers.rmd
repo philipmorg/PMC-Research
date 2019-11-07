@@ -7,11 +7,12 @@ abstract: |
   ABSTRACT TODO
 fontsize: 13pt
 urlcolor: blue
+always_allow_html: true
 output:
-  tufte::tufte_html:
+  tufte::tufte_handout:
     toc: true
     toc_depth: 2
-  tufte::tufte_handout:
+  tufte::tufte_html:
     toc: true
     toc_depth: 2
 ---
@@ -72,11 +73,12 @@ sizetable$percentage <- (sizetable$respondents / 45)
 sizetable$percentage <- percent(sizetable$percentage)
 
 
-kable(sizetable, "html", digits = getOption("digits"), row.names = NA, col.names = NA, "l", caption = "Team size distribution", label = NULL, format.args = list(), escape = TRUE)
+kable(sizetable, "latex", digits = getOption("digits"), row.names = NA, col.names = NA, "l", caption = "Team size distribution", label = NULL, format.args = list(), escape = TRUE)
 
 p <- plot_ly(sizetable, x = ~teamsize, y = ~respondents, type="bar")
 p <- layout(p, xaxis = list(type = "log"))
-p
+plot_ly_IMAGE(p, format = "png", out_file = "output.png")
+
 ```
 
 ## Q: What is the #1 reason your company chose to hire remote developers?
