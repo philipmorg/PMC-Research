@@ -9,10 +9,10 @@ fontsize: 13pt
 urlcolor: blue
 always_allow_html: true
 output:
-  tufte::tufte_html:
+  tufte::tufte_handout:
     toc: true
     toc_depth: 2
-  tufte::tufte_handout:
+  tufte::tufte_html:
     toc: true
     toc_depth: 2
 ---
@@ -38,7 +38,7 @@ Of the 45 respondents who had managed dev team that is overseas OR a remote/dist
 
 ## Q: How many people are part of the team you manage?
 
-```{r echo = FALSE, warning=FALSE}
+```{r echo = FALSE, warning=FALSE, fig.fullwidth=TRUE}
 suppressMessages(library(data.table))
 suppressMessages(library(knitr))
 suppressMessages(library(kableExtra))
@@ -55,11 +55,12 @@ kable(sizetable, caption = "Remote team sizes") %>%
     row_spec(0, bold = T)
 
 p <- plot_ly(sizetable, x = ~Size, y = ~Respondents, type="bar")
-p <- layout(p, xaxis = list(type = "log"))
+p <- layout(p, xaxis = list(type = "log"), title="Remote team sizes")
 tmpFile <- tempfile(fileext = ".png")
 suppressMessages(export(p, file = tmpFile))
 ```
 
+\newpage
 ## Q: What is the #1 reason your company chose to hire remote developers?
 
 I standardized the free-form answers to this question using a simple coding system. The tabulated coded responses are below. Note that some respondents provided more than one reason for choosing to hire remote developers.
