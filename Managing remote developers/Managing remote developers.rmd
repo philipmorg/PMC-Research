@@ -17,6 +17,8 @@ output:
 ---
 
 \newpage
+The question at the heart of this study is simple: How large is the remote team you manage, why did you choose to work with remote developers, and what's difficult about it?
+
 # Key Findings
 
 1. F1
@@ -55,6 +57,13 @@ Of the 45 respondents who had managed dev team that is overseas OR a remote/dist
 | 	24	 | 	1	 - 	2.22%	 |
 | 	70	 | 	1	 - 	2.22%	 |
 
+
+```{r}
+sizetable<-fread("size.csv",sep=",")
+kable(sizetable, latex, digits = getOption("digits"), row.names = NA, col.names = NA, l, caption = NULL, label = NULL, format.args = list(), escape = TRUE)
+library(plotly)
+p <- plot_ly(sizetable, x = ~teamsize, y = ~respondents)
+```
 
 ## Q: What is the #1 reason your company chose to hire remote developers?
 
