@@ -51,7 +51,7 @@ sizetable<-fread("teamsize.csv",sep=",")
 sizetable$Percentage <- (sizetable$Respondents / 45)
 sizetable$Percentage <- percent(sizetable$Percentage)
 
-kable(sizetable, caption = "Remote team sizes") %>%
+kable(sizetable, caption = "Remote team sizes", col.names = c("Remote team size", "Respondents managing a team of this size", "Percentage") %>%
     row_spec(0, bold = T)
 
 p <- plot_ly(sizetable, x = ~Size, y = ~Respondents, type="bar")
