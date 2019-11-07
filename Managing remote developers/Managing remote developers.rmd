@@ -51,7 +51,7 @@ sizetable<-fread("teamsize.csv",sep=",")
 sizetable$Percentage <- (sizetable$Respondents / 45)
 sizetable$Percentage <- percent(sizetable$Percentage)
 
-kable(sizetable, caption = "Remote team sizes", col.names = c("Remote team size", "Respondents managing a team of this size", "Percentage") %>%
+kable(sizetable, caption = "Remote team sizes", col.names = c("Remote team size", "Respondents managing a team of this size", "Percentage")) %>%
     row_spec(0, bold = T)
 
 p <- plot_ly(sizetable, x = ~Size, y = ~Respondents, type="bar")
@@ -71,7 +71,7 @@ reasonstable$Percentage <- (reasonstable$Respondents / 45)
 reasonstable$Percentage <- percent(reasonstable$Percentage)
 
 
-kable(reasonstable, caption = "Reasons for remote") %>%
+kable(reasonstable, caption = "Reasons for remote", col.names = c("Reason for remote team", "Respondents indicating this reason", "Percentage")) %>%
     row_spec(0, bold = T)
 ```
 
@@ -84,7 +84,7 @@ difficultiestable<-fread("difficulty.csv",sep=",")
 difficultiestable$Percentage <- (difficultiestable$Respondents / 45)
 difficultiestable$Percentage <- percent(difficultiestable$Percentage)
 
-kable(difficultiestable, caption = "Difficulties with remote") %>%
+kable(difficultiestable, caption = "Difficulties with remote", col.names = c("Primary difficulty", "Respondents indicating this difficulty", "Percentage")) %>%
     row_spec(0, bold = T)
 ```
 

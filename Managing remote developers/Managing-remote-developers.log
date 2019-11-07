@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.7)  7 NOV 2019 12:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.7)  7 NOV 2019 12:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -928,6 +928,10 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 146
 (/Users/philipmorg/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Overfull \hbox (81.19212pt too wide) in paragraph at lines 146--185
+ [][] 
+ []
+
 <Managing-remote-developers_files/figure-latex/unnamed-chunk-1-1.png, id=79, 10
 76.02pt x 827.09pt>
 File: Managing-remote-developers_files/figure-latex/unnamed-chunk-1-1.png Graph
@@ -954,7 +958,7 @@ te de-vel-
  []
 
 
-Overfull \hbox (56.48566pt too wide) in paragraph at lines 205--230
+Overfull \hbox (168.4958pt too wide) in paragraph at lines 205--230
  [][] 
  []
 
@@ -962,6 +966,11 @@ Overfull \hbox (56.48566pt too wide) in paragraph at lines 205--230
 Overfull \hbox (8.83806pt too wide) in paragraph at lines 234--234
 |\T1/cmr/m/it/10.95 Q: What seems to be more dif-fi-cult when man-ag-ing re-mot
 e de-vel-op-
+ []
+
+
+Overfull \hbox (86.04233pt too wide) in paragraph at lines 244--265
+ [][] 
  []
 
 
@@ -1002,7 +1011,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 328.
 Here is how much of TeX's memory you used:
  14525 strings out of 494111
  206922 string characters out of 6172654
- 312351 words of memory out of 5000000
+ 313351 words of memory out of 5000000
  18315 multiletter control sequences out of 15000+600000
  13522 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1019,9 +1028,9 @@ knappen/ec/ecrm1200.600pk> </Users/philipmorg/.TinyTeX/texmf-var/fonts/pk/ljfou
 r/jknappen/ec/ecrm0900.600pk> </Users/philipmorg/.TinyTeX/texmf-var/fonts/pk/lj
 four/jknappen/ec/ecti1200.600pk> </Users/philipmorg/.TinyTeX/texmf-var/fonts/pk
 /ljfour/jknappen/ec/ecti1440.600pk>
-Output written on Managing-remote-developers.pdf (6 pages, 106023 bytes).
+Output written on Managing-remote-developers.pdf (6 pages, 106171 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
+ 423 PDF objects out of 1000 (max. 8388607)
  138 compressed objects within 2 object streams
  36 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
