@@ -64,9 +64,13 @@ suppressMessages(library(knitr))
 suppressMessages(library(kableExtra))
 suppressMessages(library(ggplot2))
 suppressMessages(library(plotly))
+suppressMessages(library(formattable))
+
 
 sizetable<-fread("teamsize.csv",sep=",")
 sizetable$percentage <- (sizetable$respondents / 45)
+sizetable$percentage <- percent(sizetable$percentage)
+
 
 kable(sizetable, "html", digits = getOption("digits"), row.names = NA, col.names = NA, "l", caption = "Team size distribution", label = NULL, format.args = list(), escape = TRUE)
 
