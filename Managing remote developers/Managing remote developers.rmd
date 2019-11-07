@@ -9,10 +9,10 @@ fontsize: 13pt
 urlcolor: blue
 always_allow_html: true
 output:
-  tufte::tufte_handout:
+  tufte::tufte_html:
     toc: true
     toc_depth: 2
-  tufte::tufte_html:
+  tufte::tufte_handout:
     toc: true
     toc_depth: 2
 ---
@@ -38,28 +38,7 @@ Of the 45 respondents who had managed dev team that is overseas OR a remote/dist
 
 ## Q: How many people are part of the team you manage?
 
-| Number of team members | Count of respondents who indicated this team size  - % of respondents |
-|:--------------|:-----------|
-| 	5	 | 	8	 - 	17.78%	 |
-| 	10	 | 	6	 - 	13.33%	 |
-| 	2	 | 	4	 - 	8.89%	 |
-| 	4	 | 	4	 - 	8.89%	 |
-| 	12	 | 	3	 - 	6.67%	 |
-| 	30	 | 	3	 - 	6.67%	 |
-| 	6	 | 	2	 - 	4.44%	 |
-| 	7	 | 	2	 - 	4.44%	 |
-| 	9	 | 	2	 - 	4.44%	 |
-| 	15	 | 	2	 - 	4.44%	 |
-| 	400	 | 	1	 - 	2.22%	 |
-| 	1	 | 	1	 - 	2.22%	 |
-| 	3	 | 	1	 - 	2.22%	 |
-| 	16	 | 	1	 - 	2.22%	 |
-| 	20	 | 	1	 - 	2.22%	 |
-| 	24	 | 	1	 - 	2.22%	 |
-| 	70	 | 	1	 - 	2.22%	 |
-
-
-```{r echo = FALSE}
+```{r echo = FALSE, warning=FALSE}
 suppressMessages(library(data.table))
 suppressMessages(library(knitr))
 suppressMessages(library(kableExtra))
@@ -69,57 +48,50 @@ suppressMessages(library(formattable))
 
 
 sizetable<-fread("teamsize.csv",sep=",")
-sizetable$percentage <- (sizetable$respondents / 45)
-sizetable$percentage <- percent(sizetable$percentage)
+sizetable$Percentage <- (sizetable$Respondents / 45)
+sizetable$Percentage <- percent(sizetable$Percentage)
 
+kable(sizetable, caption = "Remote team sizes") %>%
+    row_spec(0, bold = T)
 
-kable(sizetable, "latex", digits = getOption("digits"), row.names = NA, col.names = NA, "l", caption = "Team size distribution", label = NULL, format.args = list(), escape = TRUE)
-
-p <- plot_ly(sizetable, x = ~teamsize, y = ~respondents, type="bar")
+p <- plot_ly(sizetable, x = ~Size, y = ~Respondents, type="bar")
 p <- layout(p, xaxis = list(type = "log"))
-plot_ly_IMAGE(p, format = "png", out_file = "output.png")
-
+tmpFile <- tempfile(fileext = ".png")
+suppressMessages(export(p, file = tmpFile))
 ```
 
 ## Q: What is the #1 reason your company chose to hire remote developers?
 
 I standardized the free-form answers to this question using a simple coding system. The tabulated coded responses are below. Note that some respondents provided more than one reason for choosing to hire remote developers.
 
-| Reason | Count of respondents who indicated this reason - % of respondents |
-|:--------------|:-----------|
-| 	Better talent	 | 	17	 - 	37.78%	 |
-| 	Cost	 | 	17	 - 	37.78%	 |
-| 	Scaling ease	 | 	4	 - 	8.89%	 |
-| 	More velocity	 | 	3	 - 	6.67%	 |
-| 	Preserve existing relationship through relocation	 | 	3	 - 	6.67%	 |
-| 	Lifestyle	 | 	1	 - 	2.22%	 |
-| 	more reliability	 | 	1	 - 	2.22%	 |
-| 	No physical location	 | 	1	 - 	2.22%	 |
-| 	Quality	 | 	1	 - 	2.22%	 |
-| 	Unique project requirement(s)	 | 	1	 - 	2.22%	 |
+```{r echo = FALSE, warning=FALSE}
+reasonstable<-fread("reasons.csv",sep=",")
+reasonstable$Percentage <- (reasonstable$Respondents / 45)
+reasonstable$Percentage <- percent(reasonstable$Percentage)
 
+
+kable(reasonstable, caption = "Reasons for remote") %>%
+    row_spec(0, bold = T)
+```
 
 ## Q: What seems to be more difficult when managing remote developers?
 
 I standardized the free-form answers to this question using a simple coding system. The tabulated coded responses are below. Note that some respondents provided more than difficulty in managing remote developers.
 
-| Reason | Count of respondents who indicated this difficulty - % of respondents |
-|:--------------|:-----------|
-| 	Communication	 | 	21	 - 	46.67%	 |
-| 	Time zone overlap	 | 	8	 - 	17.78%	 |
-| 	Management	 | 	7	 - 	15.56%	 |
-| 	Team building	 | 	6	 - 	13.33%	 |
-| 	Cultural differences	 | 	5	 - 	11.11%	 |
-| 	Managing underperformers	 | 	3	 - 	6.67%	 |
-| 	None	 | 	2	 - 	4.44%	 |
-| 	Onboarding	 | 	2	 - 	4.44%	 |
+```{r echo = FALSE, warning=FALSE}
+difficultiestable<-fread("difficulty.csv",sep=",")
+difficultiestable$Percentage <- (difficultiestable$Respondents / 45)
+difficultiestable$Percentage <- percent(difficultiestable$Percentage)
 
+kable(difficultiestable, caption = "Difficulties with remote") %>%
+    row_spec(0, bold = T)
+```
 
 # Insights
 
 TODO
 
-The media team size is 7. This gives the opportunity to see if there are "reasons why" and "main difficulty" differences between small and large teams.
+The median team size is 7. This gives the opportunity to see if there are "reasons why" and "main difficulty" differences between small and large teams.
 
 Another slice: look at reasons why and see if that has any relationship to team size or problems.
 
