@@ -7,10 +7,10 @@ fontsize: 13pt
 urlcolor: blue
 always_allow_html: true
 output:
-  tufte::tufte_handout:
+  tufte::tufte_html:
     toc: true
     toc_depth: 2
-  tufte::tufte_html:
+  tufte::tufte_handout:
     toc: true
     toc_depth: 2
 ---
