@@ -89,7 +89,7 @@ kable(difficultiestable, caption = "Difficulties with remote", col.names = c("Pr
 
 The median remote team size is 7. 
 
-**Team building** is a difficulty that disproportionately effects large teams (9 or larger remote team members).
+**Team building** is a difficulty that disproportionately effects large teams (9 or more remote team members).
 
 **Dealing with time zone overlap** is a difficulty that disproportionately effects small teams (7 or fewer remote team members).
 
