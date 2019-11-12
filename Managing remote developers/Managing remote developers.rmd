@@ -89,7 +89,7 @@ kable(difficultiestable, caption = "Difficulties with remote", col.names = c("Pr
 
 The median remote team size is 7. 
 
-**Team building** is a difficulty that disproportionately effects large teams (9 or more remote team members).
+**Team building** is a difficulty that disproportionately effects large teams (9 or larger remote team members).
 
 **Dealing with time zone overlap** is a difficulty that disproportionately effects small teams (7 or fewer remote team members).
 
@@ -97,7 +97,7 @@ The median remote team size is 7.
 
 # Method
 
-In May 2019, I surveyed a group of Tech Leads and VP's of Engineering from Computer Software, Internet, and Information Technology and Services companies. This group was a convenience opt-in sample recruited using LinkedIn. I screened respondents by asking "In the last year, have you managed a dev team that is overseas OR a remote/distributed team that has just 2 or 3 hours/day of time zone overlap with you?"
+In September 2019, I surveyed a group of Tech Leads and VP's of Engineering from Computer Software, Internet, and Information Technology and Services companies. This group was a convenience opt-in sample recruited using LinkedIn. I screened respondents by asking "In the last year, have you managed a dev team that is overseas OR a remote/distributed team that has just 2 or 3 hours/day of time zone overlap with you?"
 
 - 56 people from LinkedIn completed the survey. 45 (80%) moved beyond the screener question.
 
