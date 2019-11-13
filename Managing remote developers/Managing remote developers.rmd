@@ -7,10 +7,10 @@ fontsize: 13pt
 urlcolor: blue
 always_allow_html: true
 output:
-  tufte::tufte_html:
+  tufte::tufte_handout:
     toc: true
     toc_depth: 2
-  tufte::tufte_handout:
+  tufte::tufte_html:
     toc: true
     toc_depth: 2
 ---
@@ -51,8 +51,11 @@ sizetable$Percentage <- percent(sizetable$Percentage)
 kable(sizetable, caption = "Remote team sizes", col.names = c("Remote team size", "Respondents managing a team of this size", "Percentage")) %>%
     row_spec(0, bold = T)
 
-p <- plot_ly(sizetable, x = ~Size, y = ~Respondents)
-p <- layout(p, xaxis = list(type = "log"), title="Remote team sizes")
+p <- plot_ly(sizetable, x = ~Size, y = ~Respondents, type = 'scatter', mode = 'markers', marker = list(size = 15,
+                       color = 'rgba(255, 182, 193, .9)',
+                       line = list(color = 'rgba(152, 0, 0, .8)',
+                                   width = 2)))
+p <- layout(p, xaxis = list(type = "log", tickvals = list(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 25, 50, 100, 400)), title="Remote team sizes")
 tmpFile <- tempfile(fileext = ".png")
 suppressMessages(export(p, file = tmpFile))
 ```
