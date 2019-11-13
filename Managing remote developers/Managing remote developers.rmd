@@ -51,7 +51,7 @@ sizetable$Percentage <- percent(sizetable$Percentage)
 kable(sizetable, caption = "Remote team sizes", col.names = c("Remote team size", "Respondents managing a team of this size", "Percentage")) %>%
     row_spec(0, bold = T)
 
-p <- plot_ly(sizetable, x = ~Size, y = ~Respondents, type="bar")
+p <- plot_ly(sizetable, x = ~Size, y = ~Respondents)
 p <- layout(p, xaxis = list(type = "log"), title="Remote team sizes")
 tmpFile <- tempfile(fileext = ".png")
 suppressMessages(export(p, file = tmpFile))
